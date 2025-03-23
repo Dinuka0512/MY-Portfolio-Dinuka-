@@ -7,6 +7,13 @@
  * Project: untitled$
  * --------------------------------------------
  **/
+#hero{
+    height: fit-content;
+    background-image: url("../images/img.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
 
 main{
     z-index: 1;
@@ -45,6 +52,10 @@ h1,h3{
     margin: 0;
 }
 
+h1{
+    font-size: 70px;
+}
+
 #dinuka{
     color: goldenrod;
 }
@@ -54,10 +65,6 @@ main div>section>button{
     padding: 5px 20px 5px 20px;
     border: none;
     border-radius: 7px;
-}
-
-button:hover{
-    box-shadow: rgba(223, 220, 220, 0.4) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
 }
 
 main div:nth-child(2)>p{
@@ -73,6 +80,12 @@ main div:nth-child(2)>p{
     left: 0;
     margin: auto;
 }
+
+button:hover{
+    box-shadow: rgba(223, 220, 220, 0.4) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
+}
+
+
 
 @media all and (min-width: 1000px) {
     #mainImage{
