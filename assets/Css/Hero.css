@@ -61,15 +61,23 @@ h1{
 }
 
 main div>section>button{
-    margin-bottom: 5px;
-    padding: 5px 20px 5px 20px;
+    margin-bottom: 8px;
+    padding: 10px 25px 10px 25px;
     border: none;
     border-radius: 7px;
+    transition-duration: 1.15s;
+}
+
+button:hover{
+    padding-left: 40px;
+    padding-right: 40px;
+    box-shadow: rgba(223, 220, 220, 0.3) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
 }
 
 main div:nth-child(2)>p{
     text-align: justify-all;
 }
+
 
 .sec01{
     width: 90%;
@@ -79,12 +87,6 @@ main div:nth-child(2)>p{
     bottom: 0;
     left: 0;
     margin: auto;
-}
-
-
-
-button:hover{
-    box-shadow: rgba(223, 220, 220, 0.4) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
 }
 
 @media all and (max-width: 1000px) {
