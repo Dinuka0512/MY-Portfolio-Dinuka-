@@ -48,8 +48,12 @@ p{
     font-weight: lighter;
 }
 
-h1,h3{
+h1,h3,h2{
     margin: 0;
+}
+
+#job{
+    color: lightgray;
 }
 
 h1{
@@ -88,6 +92,7 @@ main div:nth-child(2)>p{
     left: 0;
     margin: auto;
 }
+
 
 @media all and (max-width: 1000px) {
     main h1{
