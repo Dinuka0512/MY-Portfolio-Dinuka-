@@ -40,6 +40,7 @@
 
 .card>div>h2,.card>div>h5 {
     margin: 0;
+    color: rgb(0, 8, 94);
 }
 
 
@@ -55,7 +56,7 @@
 
 .ExCards{
     width: 100%;
-    height: 250px;
+    height: 200px;
     background-color: rgba(67, 67, 67, 0.619);
     border-radius: 10px;
 
