@@ -13,7 +13,7 @@
     /*background-color: #ff253a;*/
     display: flex;
     align-items: center;
-    padding: 40px;
+    padding-left: 100px;
 }
 
 .title>h1{
