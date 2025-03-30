@@ -55,7 +55,30 @@
 
 .ExCards{
     width: 100%;
-    height: 300px;background-color: rgba(67, 67, 67, 0.619);
+    height: 250px;
+    background-color: rgba(67, 67, 67, 0.619);
     border-radius: 10px;
 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px;
+    text-align: center;
+}
+
+.ExCards>div>p{
+    font-size: 12px;
+    margin-bottom: 1px;
+}
+
+.ExCards>div>h3{
+    margin: 0;
+}
+
+.ExCards>div>h5{
+    margin-top: 8px;
+    margin-bottom: 0px;
+    color: #9494943e;
 }
