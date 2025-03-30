@@ -13,6 +13,7 @@
 }
 
 #hero{
+    margin-top: 100px;
     width: fit-content;
     height: fit-content;
     max-width: 1200px;
@@ -57,9 +58,9 @@ button:hover{
 
 main{
     width: 100vw;
-    height: 100vh;
+    height: fit-content;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content: center;
     background-image: url("/assets/images/img.jpg");
     background-size: cover;

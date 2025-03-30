@@ -22,3 +22,15 @@
 .title2>p{
     margin-top: 0;
 }
+
+/* title 01 */
+
+.title>h1{
+    color: gray;
+    margin: 0;
+    font-size: 40px;
+}
+
+.title>p{
+    margin-top: 0;
+}
