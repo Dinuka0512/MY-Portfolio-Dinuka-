@@ -7,32 +7,7 @@
  * Project: untitled$
  * --------------------------------------------
  **/
-
-
-/*title 01*/
-
-.title{
-    height: fit-content;
-    width: fit-content;
-    position: relative;
-    /*margin-left: 30px;*/
-    margin-top: 40px;
-}
-
-.squre{
-    width: 8px;
-    height: 55px;
-    position: absolute;
-    background-color: white;
-    left: 0;
-    border-radius: 2px;
-}
-
-.title>p, .title>h1{
-    margin: 0 0 0 13px;
-}
-
-
+ 
 /*title 02*/
 
 .title2{
