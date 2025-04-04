@@ -51,6 +51,45 @@ button:hover{
 
 }
 
+
+
+.sec01>h2 span{
+    position: relative;
+    display: inline-block;
+    color: transparent;
+    -webkit-text-stroke: .35px rgba(255, 255, 255, 0.727);
+    animation: display-text 11s linear infinite;
+    animation-delay: calc(-3s * var(--i));
+}
+
+@keyframes display-text{
+    20%,100%{
+        display: none;
+    }
+}
+
+.sec01>h2 span::before{
+    content: attr(data-text);
+    position: absolute;
+    width: 0;
+    border-right: .2rem solid rgba(186, 153, 91, 0.155);
+    white-space: nowrap;
+    overflow: hidden;
+    animation: fill-text 3s linear infinite;
+}
+
+@keyframes fill-text{
+    10%, 100%{
+        color: rgba(255, 255, 255, 0.211);
+        width: 0;
+    }
+
+    70%,90%{
+        width: 100%;
+    }
+}
+
+
 .sec01>p{
     font-weight: lighter;
     font-size: 16px;
@@ -134,3 +173,4 @@ main{
         margin-bottom: 50px;
     }
 }
+
