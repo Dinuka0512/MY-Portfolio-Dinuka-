@@ -4,8 +4,8 @@
     justify-content: center;
     align-items: center;
     background-color: rgba(0, 0, 0, 0.553);
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border-top: 1px solid rgb(107, 107, 107);
+    border-bottom: 1px solid rgb(107, 107, 107);
 }
 
 .container{
@@ -75,13 +75,21 @@
     height: 100%;
 
     display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(5, 120px);
+    justify-content: center;
     gap: 10px;
 }
 
+.experienceTitle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 30px 0 0 20px;
+}
+
 .ExCards{
-    width: 100%;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     background-color: rgba(67, 67, 67, 0.619);
     border-radius: 10px;
 
@@ -109,6 +117,10 @@
     color: #9494943e;
 }
 
+.EImg{
+    width: 100%;
+}
+
 
 @media all and (max-width: 1024px){
     .cardContainer{
@@ -125,5 +137,11 @@
 @media all and (max-width: 500px){
     .cardContainer{
         grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media all and (max-width: 600px){
+    #ExCardContainer{
+        grid-template-columns: repeat(3, 100px);
     }
 }
