@@ -54,3 +54,10 @@
 #itemContainer>div>a{
     font-size: 30px;
 }
+
+@media all and (max-width: 800px){
+    .aboutbody{
+        flex-direction: column;
+        padding: 50px;
+    }
+}
