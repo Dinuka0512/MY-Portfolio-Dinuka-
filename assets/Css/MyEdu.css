@@ -121,6 +121,10 @@
     width: 100%;
 }
 
+#exp{
+    margin-bottom: 30px;
+}
+
 
 @media all and (max-width: 1024px){
     .cardContainer{
@@ -140,7 +144,7 @@
     }
 }
 
-@media all and (max-width: 600px){
+@media all and (max-width: 700px){
     #ExCardContainer{
         grid-template-columns: repeat(3, 100px);
     }
