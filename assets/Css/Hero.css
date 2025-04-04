@@ -64,6 +64,7 @@ main{
     justify-content: center;
     background-image: url("/assets/images/img.jpg");
     background-size: cover;
+    background-position: center;
     position: relative;
 }
 
@@ -105,5 +106,31 @@ main{
     }
     100% {
         transform: translateX(-100vw);
+    }
+}
+
+
+@media all and (max-width: 800px){
+    #heroContainer{
+        flex-direction: column;
+    }
+
+    .sec01>h1{
+        font-size: 60px;
+    }
+}
+
+@media all and (max-width: 500px){
+    .sec01>h1{
+        font-size: 45px;
+    }
+
+    .sec01>h2{
+        font-size: 20px;
+    }
+
+    #heroContainer{
+        padding: 0 60px 0 60px;
+        margin-bottom: 50px;
     }
 }
