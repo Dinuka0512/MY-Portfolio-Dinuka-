@@ -28,7 +28,7 @@
 
 .card{
     width: 100%;
-    height: 250px; 
+    height: 290px; 
     background-color: rgba(67, 67, 67, 0.619);
     border-radius: 20px;
     padding: 20px;
@@ -110,3 +110,20 @@
 }
 
 
+@media all and (max-width: 1024px){
+    .cardContainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width: 800px){
+    .cardContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (max-width: 500px){
+    .cardContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
