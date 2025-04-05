@@ -32,7 +32,7 @@
     display: flex;
     justify-content: space-around;
     list-style: none;
-    padding: 25px;
+    padding: 5px;
     justify-self: center;
 }
 
@@ -41,11 +41,12 @@
     height: fit-content;
     display: flex;
     justify-self: center;
-    gap: 10px;
+    justify-content: center;
+    gap: 15px;
 }
 
 .projCard{
-    width: 250px;
+    width: 300px;
     height: fit-content;
     padding: 10px;
     background-color: white;
@@ -59,10 +60,17 @@
 }
 
 .pCard{
-    width: 230px;
-    height: 250px;
+    width: 270px;
+    height: fit-content;
     border-radius: 10px;
     background-color: black;
+    padding: 15px;
+}
+
+.c1{
+    background-image: url(../images/projects/library.png);
+    mix-blend-mode: multiply;
+    background-size: cover;
 }
 
 .PbtnCon>button{
@@ -84,4 +92,3 @@
     padding-right: 50px;
     box-shadow: rgba(223, 220, 220, 0.3) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
 }
-
