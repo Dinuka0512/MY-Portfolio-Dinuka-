@@ -11,14 +11,77 @@
 .projects-container{
     width: 100%;
     max-width: 1200px;
-    height: 500px;
+    height: fit-content;
     padding: 35px;
+}
+
+#textP{
     text-align: center;
 }
 
-.projectCon{
+.projCon{
     width: 100%;
-    height: 100px;
-    background-color: rgba(0, 0, 0, 0.148);
+    height: fit-content;
+    background-color: rgba(56, 56, 56, 0.784);
     border-radius: 10px;
+    padding: 20px;
 }
+
+#proNav>ul{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 25px;
+    justify-self: center;
+}
+
+#proJCardContainer{
+    width: 95%;
+    height: fit-content;
+    display: flex;
+    justify-self: center;
+    gap: 10px;
+}
+
+.projCard{
+    width: 250px;
+    height: fit-content;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.pCard{
+    width: 230px;
+    height: 250px;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.PbtnCon>button{
+    padding: 10px 25px 10px 25px;
+    border: none;
+    border-radius: 7px;
+    transition-duration: 1s;
+    background-color: green;
+    color: white;
+}
+
+.PbtnCon>button>a{
+    text-decoration: none;
+    color: white;
+}
+
+.PbtnCon>button:hover{
+    padding-left: 50px;
+    padding-right: 50px;
+    box-shadow: rgba(223, 220, 220, 0.3) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
+}
+

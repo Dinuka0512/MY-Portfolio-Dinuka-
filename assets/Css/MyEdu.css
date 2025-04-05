@@ -87,6 +87,10 @@
     margin: 30px 0 0 20px;
 }
 
+#exp>div>.title>h1{
+    color: rgba(233, 233, 233, 0.466);
+}
+
 .ExCards{
     width: 100px;
     height: 100px;
@@ -115,6 +119,11 @@
     margin-top: 8px;
     margin-bottom: 0px;
     color: #9494943e;
+}
+
+.ExCards:hover{
+    padding: 5px;
+    box-shadow: 1px 1px 10px rgba(128, 128, 128, 0.453);
 }
 
 .EImg{
