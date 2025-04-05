@@ -1,0 +1,43 @@
+:root{
+    --mwidth : 600px;
+}
+
+#gallery{
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    max-width: 1200px;
+    padding: 20px;
+    background-image: url(/assets/images/light.png);
+    background-size: cover;
+    background-position: right;
+}
+
+#GImgSide{
+    width: 1000px;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 200px);
+    gap: 3px;
+}
+
+#GImgSide>div{
+    border: 10px solid white;
+}
+
+.Gimg{
+    width: 100%;
+    height: 200px;
+}
+
+#GImgSide>div:nth-child(1){
+    grid-column: 1/4;
+    background-color: brown;
+}
+
+#GImgSide>div:nth-child(2){
+    background-color: black;
+    grid-column: 5;
+    grid-row: 1/3;
+}
