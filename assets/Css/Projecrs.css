@@ -28,7 +28,8 @@
 }
 
 #proNav>ul{
-    width: 80%;
+    min-width: 710px;
+    width: 710px;
     display: flex;
     justify-content: space-around;
     list-style: none;
@@ -37,17 +38,17 @@
 }
 
 #proJCardContainer{
-    width: 95%;
+    width: fit-content;
     height: fit-content;
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(3, 300px);
     justify-self: center;
-    justify-content: center;
     gap: 15px;
 }
 
 .projCard{
     width: 300px;
-    height: fit-content;
+    min-width: 210px;
     padding: 10px;
     background-color: white;
     border-radius: 10px;
@@ -73,6 +74,18 @@
     background-size: cover;
 }
 
+.c2{
+    background-image: url(../images/projects/game.png);
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
+
+.c3{
+    background-image: url(../images/projects/clinic.png);
+    mix-blend-mode: multiply;
+    background-size: cover;
+}
+
 .PbtnCon>button{
     padding: 10px 25px 10px 25px;
     border: none;
@@ -91,4 +104,45 @@
     padding-left: 50px;
     padding-right: 50px;
     box-shadow: rgba(223, 220, 220, 0.3) 0px 4px 16px, rgba(142, 141, 141, 0.2) 0px 8px 32px;
+}
+
+@media all and (max-width : 1025px) {
+    #proNav{
+        display: none;
+    }
+
+    #proJCardContainer{
+        grid-template-columns: repeat(2, 300px);
+    }
+}
+
+@media all and (max-width : 710px) {
+    #proNav{
+        display: none;
+    }
+
+    #proJCardContainer{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+}
+
+@media all and (max-width : 420px) {
+    #proNav{
+        display: none;
+    }
+
+    #proJCardContainer{
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
+    }
+
+    .projCard{
+        width: 210px;
+    }
+
+    .pCard{
+        width: 200px;
+    }
 }
