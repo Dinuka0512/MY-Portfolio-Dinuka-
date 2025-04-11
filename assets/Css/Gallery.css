@@ -9,7 +9,6 @@
     justify-self: center;
     justify-content: center;
     max-width: 1200px;
-    width: 1200px;
     padding: 100px;
     background-image: url(/assets/images/light.png);
     background-size: cover;
@@ -23,7 +22,9 @@
 }
 
 #GImgSide>div{
-    border: 10px solid white;
+    border: 5px solid white;
+    background-size: cover;
+    background-position: center;
 }
 
 .Gimg{
@@ -33,13 +34,29 @@
 #GImgSide>div:nth-child(1){
     border-top-left-radius: 100px;
     grid-column: 1/4;
-    background-image: url("../images/");
+    background-image: url("../images/Gallery/top.png");
 }
 
 #GImgSide>div:nth-child(2){
     background-color: black;
     grid-column: 4/5;
     grid-row: 1/3;
+    background-image: url("../images/Gallery/IjseMovieNight.png");
+}
+
+#GImgSide>div:nth-child(3){
+    background-image: url("../images/Gallery/nuwaraEliya.png");
+}
+#GImgSide>div:nth-child(4){
+    background-image: url("../images/Gallery/black.png");
+}
+#GImgSide>div:nth-child(5){
+    background-image: url("../images/Gallery/GregaryPark.png");
+}
+
+
+.Gimg:hover{
+    opacity: 0.8;
 }
 
 
