@@ -1,0 +1,35 @@
+#ContactUsSection{
+    width: 100vw;
+    height: fit-content;
+    background-color: rgba(25, 25, 25, 0.364);
+    display: flex;
+    justify-content: center;
+}
+
+#contactUsContainer{
+    max-width: 1200px;
+    height: fit-content;
+    width: 1200px;
+    padding: 40px;
+}
+
+#contactDetails{
+    width: fit-content;
+    height: fit-content;
+
+    display: flex;
+    justify-self: center;
+    gap: 20px;
+}
+
+.Contactcard{
+    width: fit-content;
+    height: fit-content;
+    text-align: center;
+    color: rgba(86, 86, 86, 0.871);
+    padding: 10px;
+}
+
+.Contactcard>p{
+    margin: 0;
+}
