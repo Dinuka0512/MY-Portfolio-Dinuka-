@@ -1,0 +1,37 @@
+#MyservicesContainer{
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+}
+
+#Myservices{
+    max-width: 1200px;
+    width: 1200px;
+    padding: 50px;
+    background-image: url("../images/light.png");
+    background-size: cover;
+    background-position: bottom;
+}
+
+.ServisesContainer{
+    width: 100%;
+    height: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: rgba(128, 128, 128, 0.247);
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+}
+
+.serviceCard{
+    padding: 20px;
+    width: 250px;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: rgba(24, 24, 24, 0.458);
+}
+
+.serviceCard>image{
+
+}
