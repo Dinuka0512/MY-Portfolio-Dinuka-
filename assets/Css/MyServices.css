@@ -20,18 +20,17 @@
     padding: 30px;
     border-radius: 20px;
     background-color: rgba(128, 128, 128, 0.247);
+    
     display: grid;
-    grid-template-columns: repeat(3 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
 }
 
 .serviceCard{
     padding: 20px;
     width: 250px;
-    height: fit-content;
+    height: auto;
     border-radius: 10px;
     background-color: rgba(24, 24, 24, 0.458);
-}
-
-.serviceCard>image{
-
+    align-content: center;
 }
