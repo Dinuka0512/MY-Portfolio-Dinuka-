@@ -11,6 +11,9 @@
     height: fit-content;
     width: 1200px;
     padding: 40px;
+    /* background-color: red; */
+
+    position: relative;
 }
 
 #contactDetails{
@@ -20,16 +23,65 @@
     display: flex;
     justify-self: center;
     gap: 20px;
+    margin-bottom: 20px;
 }
 
 .Contactcard{
     width: fit-content;
     height: fit-content;
     text-align: center;
-    color: rgba(86, 86, 86, 0.871);
     padding: 10px;
+
+    opacity: 0.3;
 }
 
 .Contactcard>p{
     margin: 0;
+    font-size: 11px;
+}
+
+
+/* Inputs */
+form{
+    height: fit-content;
+    max-width: 1200px;
+    /* background-color: aqua; */
+
+    /* position: absolute; */
+    left: 0;
+    right: 0;
+    margin: auto;
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+input, textarea{
+    border: none;
+    border-radius: 25px;
+    background-color: rgba(169, 169, 169, 0.414);
+    padding-left: 20px;
+
+    width: 100%;
+    height: 50px;
+}
+
+textarea{
+    height: 100%;
+    padding-top: 20px;
+}
+
+form>div:nth-child(5){
+    grid-column: 1/3;
+    grid-row: 3;
+}
+
+button{
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 35px 10px 35px;
+    justify-self: end;   
+    border-radius: 10px;
+    border: none;
 }
