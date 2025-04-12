@@ -7,15 +7,16 @@
 
 #Myservices{
     max-width: 1200px;
-    width: 1200px;
     padding: 50px;
+    width: fit-content;
+    height: fit-content;
     background-image: url("../images/light.png");
     background-size: cover;
     background-position: bottom;
 }
 
 .ServisesContainer{
-    width: 100%;
+    width: fit-content;
     height: fit-content;
     padding: 30px;
     border-radius: 20px;
@@ -24,6 +25,11 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 10px;
+
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 .serviceCard{
@@ -33,4 +39,23 @@
     border-radius: 10px;
     background-color: rgba(24, 24, 24, 0.458);
     align-content: center;
+}
+
+
+@media all and (max-width: 1125px){
+    .ServisesContainer{
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media all and (max-width: 870px){
+    .ServisesContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media all and (max-width: 615px){
+    .ServisesContainer{
+        grid-template-columns: repeat(1, 1fr);
+    }
 }
