@@ -26,7 +26,7 @@
     <link rel="stylesheet" href="assets/Css/MyServices.css">
     <link rel="stylesheet" href="assets/Css/ContactUs.css">
     <link rel="stylesheet" href="assets/Css/Fotter.css">
-    <linkrel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 </head>
 <body>
     <!-- Navigations -->
@@ -51,44 +51,46 @@
     </div>
 </nav>
 
-    <!--  HERO SECTION  -->
+    <!-- HERO SECTION -->
     <main>
         <div id="bars-Animations">
-            <div class="bar" style="--i:1";></div>
-            <div class="bar" style="--i:2";></div>
-            <div class="bar" style="--i:3";></div>
-            <div class="bar" style="--i:4";></div>
-            <div class="bar" style="--i:5";></div>
-            <div class="bar" style="--i:6";></div>
-    </div>
+            <div class="bar" style="--i:1;"></div>
+            <div class="bar" style="--i:2;"></div>
+            <div class="bar" style="--i:3;"></div>
+            <div class="bar" style="--i:4;"></div>
+            <div class="bar" style="--i:5;"></div>
+            <div class="bar" style="--i:6;"></div>
+        </div>
 
         <div id="hero">
             <section id="heroContainer">
-                    <!--THIS IS PAGE HERO-->
-                <div class="hero imgSec">
+                <!-- THIS IS PAGE HERO -->
+                <div class="hero imgSec" data-aos="fade-right">
                     <img src="assets/images/main1.png" id="mainImage" width="100%">
                 </div>
-                <div class="hero textSec">
-                    <section class="sec01">
+
+                <div class="hero textSec" data-aos="fade-left">
+                    <section class="sec01" data-aos="fade-up" data-aos-delay="200">
                         <h3>Hello there!</h3>
                         <h1>I'm Dinuka</h1>
-                        
+
                         <h2 id="job">I'm 
-                            <span style="--i:3;" data-text ="Software Engeneer">Software Engeneer</span>
-                            <span style="--i:2;" data-text ="Graphic Designer">Graphic Designer</span>
-                            <span style="--i:1;" data-text ="Video Editor">Video Editor</span>
+                            <span style="--i:3;" data-text="Software Engeneer">Software Engeneer</span>
+                            <span style="--i:2;" data-text="Graphic Designer">Graphic Designer</span>
+                            <span style="--i:1;" data-text="Video Editor">Video Editor</span>
                         </h2>
-                        
-                        <p>I specialize in custom software development, UI/UX design, and digital solutions to help businesses enhance efficiency and grow. With expertise in Java development, system architecture, and graphic design, I create user-friendly, high-performance applications and creative branding materials tailored to your needs.</p>
-                        <p>Passionate about problem-solving and innovation, I am committed to delivering high-quality, reliable, and scalable solutions that meet industry standards. Whether you need a custom software system, an eye-catching design, or a seamless user experience, I’m here to help.</p>
+
+                        <p>I specialize in custom software development, UI/UX design, and digital solutions to help businesses enhance efficiency and grow.</p>
+                        <p>Passionate about problem-solving and innovation, I am committed to delivering high-quality, reliable, and scalable solutions that meet industry standards.</p>
                         <h3>Let’s work together to turn your ideas into reality! 🚀</h3>
-                        <button>Explore More</button>
-                        <button>Contact Me</button>
+                        <button data-aos="zoom-in" data-aos-delay="300">Explore More</button>
+                        <button data-aos="zoom-in" data-aos-delay="400">Contact Me</button>
                     </section>
                 </div>
             </section>
         </div>
     </main>
+
 
     <!--  SECTION IMAGE -->
     <section id="BgImage01" class="sec01">
@@ -99,7 +101,7 @@
     <div id="aboutMe">
 
         <div class="aboutbody">
-            <div class="about content" >
+            <div class="about content"  data-aos="fade-up">
                 <div class="title" >
                     <h1>About me</h1>
                     <p>my introduction</p>
@@ -123,7 +125,7 @@
                     </div>
                 </section>
             </div>
-            <div class="about Main_image">
+            <div class="about Main_image" data-aos="fade-up">
                 <img src="assets/images/02.png" id="image" alt="DinukaImage" width="100%">
             </div>
         </div>
@@ -199,7 +201,7 @@
 
             <!-- card container -->
             <div class="cardContainer">
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div>
                         <div class="cardIcoContainer">
                             <img src="/assets/images/Schools/palannaruwa.png" alt="palannaruwa" width="25%" height="25%">
@@ -212,7 +214,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div>
                         <div class="cardIcoContainer">
                             <img src="/assets/images/Schools/bandaragama.png" alt="Bandaragama Central College" width="25%" height="25%">
@@ -225,7 +227,7 @@
                     </div>
                 </div>
                 
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div>
                         <div class="cardIcoContainer">
                             <img src="/assets/images/Schools/panadura.png" alt="Panadura st John’s College" width="25%" height="25%">
@@ -238,7 +240,7 @@
                     </div>
                 </div>
 
-                <div class="card">
+                <div class="card" data-aos="zoom-in">
                     <div>
                         <div class="cardIcoContainer">
                             <img src="/assets/images/Schools/ijse.png" alt="Ijse Logo" width="25%" height="25%">
@@ -266,31 +268,31 @@
     
         <!-- My Experiences -->
          <div id="ExCardContainer">
-            <div class="ExCards">
+            <div class="ExCards" data-aos="flip-left">
                 <div class="Eximage">
                     <img src="/assets/icons/econopack.png" alt="econopack" class="EImg">
                 </div>
             </div>
     
-            <div class="ExCards">
+            <div class="ExCards" data-aos="flip-left">
                 <div class="Eximage">
                     <img src="/assets/icons/AutoMiraj.png" alt="AutoMiraj" class="EImg">
                 </div>
             </div>
     
-            <div class="ExCards">
+            <div class="ExCards" data-aos="flip-left">
                 <div class="Eximage">
                     <img src="/assets/icons/ids.png" alt="IDS" class="EImg">
                 </div>
             </div>
     
-            <div class="ExCards">
+            <div class="ExCards" data-aos="flip-left">
                 <div class="Eximage">
                     <img src="/assets/icons/dmpc.png" alt="DMPC" class="EImg">
                 </div>
             </div>
     
-            <div class="ExCards">
+            <div class="ExCards" data-aos="flip-left">
                 <div class="Eximage">
                     <img src="/assets/icons/huruwagraphy.png" alt="Huruwagraphy" class="EImg">
                 </div>
@@ -322,7 +324,7 @@
                 </div>
 
                 <div id="proJCardContainer">
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-right">
                         <div class="pCard c1">
                             <h3>Library Management System Software</h3>
                             <p class="subTest">stand alone</p>
@@ -335,7 +337,7 @@
                     </div>
 
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up">
                         <div class="pCard c2">
                             <h3>Tic Tak Toe Game <br>(XOX Game)</h3>
                             <p class="subTest">stand alone</p>
@@ -348,7 +350,7 @@
                     </div>
 
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-left">
                         <div class="pCard c3">
                             <h3>Library Management System Software</h3>
                             <p class="subTest">stand alone</p>
@@ -361,7 +363,7 @@
                     </div>
 
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-right">
                         <div class="pCard c4">
                             <h3>ITS 1119_Home take assignment 03 - Part 01</h3>
                             <p class="subTest">Html - Css</p>
@@ -373,7 +375,7 @@
                         </div>
                     </div>
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up">
                         <div class="pCard c4">
                             <h3>ITS 1119_Home take assignment 04 - Transition & Animation</h3>
                             <p class="subTest">Transition & Animation</p>
@@ -385,7 +387,7 @@
                         </div>
                     </div>
                                     
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-left">
                         <div class="pCard c4">
                             <h3>ITS 1119_Home take assignment 05</h3>
                             <p class="subTest">My portfolio</p>
@@ -397,7 +399,7 @@
                         </div>
                     </div>
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-right">
                         <div class="pCard c4">
                             <h3>ITS 1119_Home take assignment 06</h3>
                             <p class="subTest">Pos System <br>(Wierframe / Mocups / site map)</p>
@@ -409,7 +411,7 @@
                         </div>
                     </div>
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up">
                         <div class="pCard c4">
                             <h3>ITS 1119_Home take assignment 07</h3>
                             <p class="subTest">Pos System</p>
@@ -421,7 +423,7 @@
                         </div>
                     </div>
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-left">
                         <div class="pCard c4">
                             <h3>ITS 1119_Home take assignment 08</h3>
                             <p class="subTest">Javacript Arrays </p>
@@ -433,7 +435,7 @@
                         </div>
                     </div>
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-right">
                         <div class="pCard c4">
                             <h3>ITS 1119_Home take assignment 09</h3>
                             <p class="subTest">Knight Rider Light</p>
@@ -445,9 +447,9 @@
                         </div>
                     </div>
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up">
                         <div class="pCard c4">
-                            <h3>Simple Calculator</h3>
+                            <h3>Simple Calculator</h3>1
                             <p class="subTest">HTML | CSS | JAVASCRIPT</p>
                             <!-- <p>I developed a standalone Library Management System for the Bandaragama Public Library, streamlining book cataloging, member management, and lending processes. This software enhances efficiency and simplifies daily library operations.</p> -->
                         </div>
@@ -457,7 +459,7 @@
                         </div>
                     </div>
 
-                    <div class="projCard">
+                    <div class="projCard" data-aos="fade-up-left">
                         <div class="pCard c4">
                             <h3>IQ Level Tester</h3>
                             <p class="subTest">HTML | CSS | JAVASCRIPT</p>
@@ -478,7 +480,7 @@
     <!-- Gallery -->
      <div id="gallerySection">
         <div id="gallery">
-            <div id="GImgSide">
+            <div id="GImgSide" data-aos="fade-right">
                 <div class="Gimg"></div>
                 <div class="Gimg"></div>
                 <div class="Gimg"></div>
@@ -486,7 +488,7 @@
                 <div class="Gimg"></div>
             </div>
     
-            <div id="GTSide">
+            <div id="GTSide" data-aos="fade-left">
                 <h1><u>Gallery</u></h1>
                 <p>Welcome to my gallery, a visual journey through some of the most cherished moments and milestones in my life. This collection captures personal experiences, memorable events, and the unique stories that have shaped my path. Each image reflects a part of my journey, offering a glimpse into the meaningful connections and special occasions that I hold close to my heart.</p>
                 <p>Take your time to explore these snapshots, as they are more than just pictures—they are memories that speak of joy, creativity, and inspiration. Let this gallery share a piece of my story with you.</p>
@@ -511,31 +513,31 @@
             
 
             <div class="ServisesContainer">
-                <div class="serviceCard">
+                <div class="serviceCard" data-aos="flip-left">
                     <img src="/assets/images/Services/Mobile.png" alt="Mobile Image" width="35%">
                     <h2>Mobile App Development </h2>
                     <p>Transform your ideas into functional and user-friendly mobile applications. Our expert developers craft apps tailored to your specific needs, ensuring seamless performance across different devices and platforms.</p>
                 </div>
 
-                <div class="serviceCard">
+                <div class="serviceCard" data-aos="flip-left">
                     <img src="/assets/images/Services/web.png" alt="Web Image" width="35%">
                     <h2>Web App Development </h2>
                     <p>Elevate your online presence with custom web applications that enhance user experience and drive business growth. From e-commerce platforms to complex business solutions, we deliver scalable and responsive web applications that meet your objectives.</p>
                 </div>
 
-                <div class="serviceCard">
+                <div class="serviceCard" data-aos="flip-left">
                     <img src="/assets/images/Services/Ui.png" alt="Ui Image" width="35%">
                     <h2>UI/UX <br>Designs </h2>
                     <p>Delight users with intuitive and aesthetically pleasing interfaces. Our UI/UX designers combine creativity with user-centric principles to design interfaces that enhance usability and create memorable experiences across all devices.</p>
                 </div>
 
-                <div class="serviceCard">
+                <div class="serviceCard" data-aos="flip-left">
                     <img src="/assets/images/Services/design.png" alt="Design Image" width="35%">
                     <h2>Graphic Designing</h2>
                     <p>Capture attention and communicate your message effectively with captivating graphic designs. Our skilled designers create visually stunning graphics that align with your brand identity, from logos and marketing materials to infographics and social media content.</p>
                 </div>
 
-                <div class="serviceCard">
+                <div class="serviceCard" data-aos="flip-left">
                     <img src="/assets/images/Services/Print.png" alt="print Image" width="35%">
                     <h2>Digital Printing Service </h2>
                     <p>Bring your designs to life with high-quality printing services. Whether you need business cards, brochures, posters, or promotional materials, we provide professional printing solutions that reflect the quality and professionalism of your brand.</p>
@@ -614,5 +616,16 @@
 
    
     <script src="lib/fontawesome/fontawesome-free-6.7.2-web/js/all.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000, // animation duration in ms
+        once: false, // whether animation should happen only once - while scrolling down
+    });
+
+    window.addEventListener('scroll', function() {
+            AOS.refresh();
+    });
+    </script>
 </body>
 </html>

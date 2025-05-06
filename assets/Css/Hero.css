@@ -129,7 +129,6 @@ main{
 .bar{
     height: 100%;
     width: 100%;
-    
 
     animation-name: opening;
     animation-duration: calc(.2s * var(--i)); 
@@ -140,7 +139,7 @@ main{
 @keyframes opening {
     0% {
 
-        background-color: rgba(255, 255, 255, 0.337);
+        background-color: white;
         opacity: 1;
     }
     100% {
