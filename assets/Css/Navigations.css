@@ -6,7 +6,11 @@
  * Created: 3/6/2025$ 9:33 AM$
  * Project: untitled$
  * --------------------------------------------
- **/
+ **/ 
+
+body{
+    overflow-x: hidden;
+}
 
 nav{
     z-index: 1000;
